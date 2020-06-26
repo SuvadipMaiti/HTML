@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Store Page</title>
+
+    <script src="https://use.fontawesome.com/bcc636e8db.js"></script>
+
+
+    <!--     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <a href="index.html" class="navbar-brand">
+            <img src="assets/images/logo.jpg" class="logo" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+              <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar" >
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2 ">
+                <a href="index.html" class="nav-link text-center">Home</a>
+              </li>
+               <li class="nav-item mx-2 ">
+                <a href="product.html" class="nav-link text-center">Product</a>
+              </li>
+               <li class="nav-item mx-2 ">
+                <a href="single_product.html" class="nav-link text-center">Single Product</a>
+              </li>
+               <li class="nav-item mx-2 nav-active">
+                <a href="store.html" class="nav-link text-center">Store</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-icons d-none d-lg-flex">
+            <!-- single icon  -->
+            <div class="navbar-icon mx-2">
+              <i class="fa fa-search"></i>
+            </div>
+            <!-- end single icon -->
+            <!-- single icon  -->
+              <a href="store.html" class="navbar-icon mx-2 navbar-cart-icon">
+                <i class="fa fa-shopping-cart"></i>
+                <div class="cart-items">0</div>
+              </a>
+            <!-- end single icon -->
+          </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- banner -->
+      <div class="banner-store d-flex align-items-center pl-3 pl-lg-5 text-center">
+        <div class="">
+            <h1 class="text-capitalize text-yellow text-slanted display-4">Comfy Sloth</h1>
+            <h2 class="text-capitalize font-weight-bold display-4">Our store</h2>
+          </div>
+      </div>
+      <!-- end banner -->
+    </header>
+    <!-- end header -->
+    <!-- totals -->
+    <section class="totals py-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="text-center col text-uppercase">
+            <!-- header column-->
+            <div class="row">
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p class="text-uppercase font-weight-bold">Products</p>
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-4">
+                <p class="text-uppercase font-weight-bold">name of products</p>
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p class="text-uppercase font-weight-bold">price</p>
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p class="text-uppercase font-weight-bold">quantity</p>
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p class="text-uppercase font-weight-bold">total</p>
+              </div>
+              <!-- end single column -->              
+            </div>
+            <!-- end of header column -->
+            <hr>
+            <!-- body column -->
+            <div class="row my-3 align-items-center">
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <img src="assets/images/img.jpg" class="img-fluid" alt="product image">
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-4">
+                <p>comfortable chair</p>
+              </div>
+              <!-- end single column -->
+
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p>$100</p>
+              </div>
+              <!-- end single column -->  
+
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <!-- cart button -->
+                <div class="d-flex justify-content-center align-items-center">
+                  <span class="btn btn-black mx-1">-</span>
+                  <span class="btn btn-black mx-1">4</span>
+                  <span class="btn btn-black mx-1">+</span>
+                </div>
+                <!-- end cart button -->
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p>$100</p>
+              </div>
+              <!-- end single column -->                                        
+            </div>
+            <!-- end of body column-->
+
+            <!-- body column -->
+            <div class="row my-3 align-items-center">
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <img src="assets/images/img.jpg" class="img-fluid" alt="product image">
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-4">
+                <p>comfortable chair</p>
+              </div>
+              <!-- end single column -->
+
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p>$100</p>
+              </div>
+              <!-- end single column -->  
+
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <!-- cart button -->
+                <div class="d-flex justify-content-center align-items-center">
+                  <span class="btn btn-black mx-1">-</span>
+                  <span class="btn btn-black mx-1">4</span>
+                  <span class="btn btn-black mx-1">+</span>
+                </div>
+                <!-- end cart button -->
+              </div>
+              <!-- end single column -->
+              <!-- single column -->
+              <div class="col-10 mx-auto col-md-2">
+                <p>$100</p>
+              </div>
+              <!-- end single column -->                                        
+            </div>
+            <!-- end of body column-->
+            <div class="row">
+                <div class="col col-sm-6 mx-auto d-flex justify-content-center flex-wrap">
+                  <button type="button" class="btn btn-black my-2">Continue shopping</button>
+                  <button type="button" class="btn btn-yellow my-2 ml-2">Checkout</button>
+                </div>
+            </div>
+            <!-- end of cart buttons -->
+            <div class="row">
+              <div class="col mx-auto my-3 col-sm-8 col-md-6 col-lg-4">
+                <div class="card card-body bg-secondary text-uppercase">
+                  <div class="card-title text-white">
+                    <h6>Cart Total</h6>
+                  </div>
+                  <div class="row">
+                    <!-- single row -->
+                    <div class="col-6">sub total</div>
+                    <div class="col-6">$900.00</div>
+                    <!-- end single row -->
+                    <!-- single row -->
+                    <div class="col-6">tax</div>
+                    <div class="col-6">$20.00</div>
+                    <!-- end single row -->
+                    <!-- single row -->
+                    <div class="col-6">shipping</div>
+                    <div class="col-6">$80.00</div>
+                    <!-- end single row -->
+                    <!-- single row -->
+                    <div class="col-6 my-3">order total</div>
+                    <div class="col-6 my-3 text-danger">$1000.00</div>
+                    <!-- end single row -->                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end totals -->
+    <!-- feature  -->
+    <section class="featured py-5">
+       <div class="container">
+         <div class="row my-3">
+            <div class="col-10 mx-auto text-center">
+              <h1 class="text-uppercase ">Featured Product</h1>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+         </div>
+         <div class="row">
+            <!-- single product -->
+            <div class="col-10 mx-auto col-md-6 col-lg-4">
+               <div class="featured-container p-5">
+                  <img src="assets/images/img.jpg" class="img-fluid" alt="Product">
+                  <span class="featured-search-icon"  data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i></span>
+
+                  <a href="#" class="featured-store-link text-capitalize">Add to Cart</a>
+               </div>
+               <h6 class="text-capitalize text-center my-2">Special Product</h6>
+               <h6 class="text-center">
+                 <span class="text-muted old-price mx-2">$200</span>
+                 <span class="">$100</span>
+               </h6>
+            </div>
+            <!-- end single product -->
+            <!-- single product -->
+            <div class="col-10 mx-auto col-md-6 col-lg-4">
+               <div class="featured-container p-5">
+                  <img src="assets/images/img.jpg" class="img-fluid" alt="Product">
+                  <span class="featured-search-icon" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i></span>
+
+                  <a href="#" class="featured-store-link text-capitalize">Add to Cart</a>
+               </div>
+               <h6 class="text-capitalize text-center my-2">Special Product</h6>
+               <h6 class="text-center">
+                 <span class="text-muted old-price mx-2">$200</span>
+                 <span class="">$100</span>
+               </h6>
+            </div>
+            <!-- end single product -->
+            <!-- single product -->
+            <div class="col-10 mx-auto col-md-6 col-lg-4">
+               <div class="featured-container p-5">
+                  <img src="assets/images/img.jpg" class="img-fluid" alt="Product">
+                  <span class="featured-search-icon" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i></span>
+
+                  <a href="#" class="featured-store-link text-capitalize">Add to Cart</a>
+               </div>
+               <h6 class="text-capitalize text-center my-2">Special Product</h6>
+               <h6 class="text-center">
+                 <span class="text-muted old-price mx-2">$200</span>
+                 <span class="">$100</span>
+               </h6>
+            </div>
+            <!-- end single product -->
+            <!-- single product -->
+            <div class="col-10 mx-auto col-md-6 col-lg-4">
+               <div class="featured-container p-5">
+                  <img src="assets/images/img.jpg" class="img-fluid" alt="Product">
+                  <span class="featured-search-icon" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i></span>
+
+                  <a href="#" class="featured-store-link text-capitalize">Add to Cart</a>
+               </div>
+               <h6 class="text-capitalize text-center my-2">Special Product</h6>
+               <h6 class="text-center">
+                 <span class="text-muted old-price mx-2">$200</span>
+                 <span class="">$100</span>
+               </h6>
+            </div>
+            <!-- end single product -->
+            <!-- single product -->
+            <div class="col-10 mx-auto col-md-6 col-lg-4">
+               <div class="featured-container p-5">
+                  <img src="assets/images/img.jpg" class="img-fluid" alt="Product">
+                  <span class="featured-search-icon" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i></span>
+
+                  <a href="#" class="featured-store-link text-capitalize">Add to Cart</a>
+               </div>
+               <h6 class="text-capitalize text-center my-2">Special Product</h6>
+               <h6 class="text-center">
+                 <span class="text-muted old-price mx-2">$200</span>
+                 <span class="">$100</span>
+               </h6>
+            </div>
+            <!-- end single product -->                   
+            <!-- single product -->
+            <div class="col-10 mx-auto col-md-6 col-lg-4">
+               <div class="featured-container p-5">
+                  <img src="assets/images/img.jpg" class="img-fluid" alt="Product">
+                  <span class="featured-search-icon" data-toggle="modal" data-target="#productModal"><i class="fa fa-search"></i></span>
+
+                  <a href="#" class="featured-store-link text-capitalize">Add to Cart</a>
+               </div>
+               <h6 class="text-capitalize text-center my-2">Special Product</h6>
+               <h6 class="text-center">
+                 <span class="text-muted old-price mx-2">$200</span>
+                 <span class="">$100</span>
+               </h6>
+            </div>
+            <!-- end single product -->                                         
+         </div>
+       </div>
+    </section>
+
+    <!-- end feature -->
+
+    <!-- partner  -->
+    <section class="partners py-5">
+      <div class="container">
+        <div class="row">
+          <!-- company carousel -->
+          <div class="col-6 col-md-6 col-lg-4 mx-auto">
+            <div id="partnerCarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <!-- single item -->
+                  <div class="carousel-item active">
+                    <img src="assets/images/img2.jpg" class="d-block w-100" alt="company">
+                  </div>
+                <!-- end single item -->
+                <!-- single item -->
+                  <div class="carousel-item ">
+                    <img src="assets/images/img.jpg" class="d-block w-100" alt="company">
+                  </div>
+                <!-- end single item -->
+                <!-- single item -->
+                  <div class="carousel-item ">
+                    <img src="assets/images/img2.jpg" class="d-block w-100" alt="company">
+                  </div>
+                <!-- end single item -->
+                <!-- single item -->
+                  <div class="carousel-item ">
+                    <img src="assets/images/img.jpg" class="d-block w-100" alt="company">
+                  </div>
+                <!-- end single item -->
+              </div>
+              <a href="#partnerCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a href="#partnerCarousel" class="carousel-control-next" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- end company carousel -->
+        </div>
+      </div>
+    </section>
+    <!-- end partner -->
+    <!-- newsletter -->
+    <section class="newsletter py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h2 class="text-uppercase ">Newsletter</h2>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <form>
+              <div class="input-group mt-5 mb-4">
+                <input type="text" name="" class="form-control text-capitalize" placeholder="Your email">
+                <div class="input-group-append">
+                  <div class="input-group-text form-icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-yellow">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end newsletter -->
+
+    <!-- skills -->
+    <section class="skills py-5">
+      <div class="container">
+        <div class="row">
+          <!-- single skill -->
+          <div class="col-10 mx-auto col-md-6 col-lg-4 d-flex my-3">
+            <div class="skill-icon mr-3">
+              <i class="fa fa-truck"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase text-white">free shipping</h3>
+              <p class="text-muted text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <!-- end single skill -->
+          <!-- single skill -->
+          <div class="col-10 mx-auto col-md-6 col-lg-4 d-flex my-3">
+            <div class="skill-icon mr-3">
+              <i class="fa fa-usd"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase text-white">Price</h3>
+              <p class="text-muted text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <!-- end single skill -->
+          <!-- single skill -->
+          <div class="col-10 mx-auto col-md-6 col-lg-4 d-flex my-3">
+            <div class="skill-icon mr-3">
+              <i class="fa fa-trophy"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase text-white">Life time warrenty</h3>
+              <p class="text-muted text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <!-- end single skill -->
+        </div>
+      </div>
+    </section>
+    <!-- end skills -->
+
+    <!-- footer -->
+    <footer class="py-5 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h1 class="text-uppercase font-weight-bold text-yellow footer-title text-center d-inline-block">
+              Comfy Sloth
+            </h1>
+            <div class="footer-content-center">
+              <!-- single item -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <!-- end single item -->
+              <!-- single item -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <!-- end single item -->
+              <!-- single item -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fa fa-google"></i>
+              </a>
+              <!-- end single item -->  
+              <!-- single item -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <!-- end single item -->
+              <!-- single item -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <!-- end single item -->     
+              <!-- end of footer icon  -->
+              <p class="text-muted text-capitalize w-75 mx-auto text-left">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <div class="footer-contact mt-5 d-flex justify-content-around flex-wrap">
+                <!-- single contact -->
+                <div class="text-capitalize">
+                  <span class="footer-icon mr-2">
+                    <i class="fa fa-map"></i>
+                  </span>
+                  Address:
+                </div>
+                <!-- end single contact -->
+                <!-- single contact -->
+                <div class="text-capitalize">
+                  <span class="footer-icon mr-2">
+                    <i class="fa fa-phone"></i>
+                  </span>
+                  Phone:
+                </div>
+                <!-- end single contact -->
+                <!-- single contact -->
+                <div class="text-capitalize">
+                  <span class="footer-icon mr-2">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                  Email:
+                </div>
+                <!-- end single contact -->                                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
